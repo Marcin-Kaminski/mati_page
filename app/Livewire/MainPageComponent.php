@@ -16,4 +16,10 @@ class MainPageComponent extends Component
     {
         return redirect()->route('portfolio');
     }
+
+    public function goToAboutMe()
+    {
+        return redirect()->route('about-me');
+
+    }
 }

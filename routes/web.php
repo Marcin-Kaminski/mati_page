@@ -17,3 +17,4 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', MainPageComponent::class)->name('main-page');
 Route::get('/portfolio', PortfolioComponent::class)->name('portfolio');
+Route::get('/o-mnie', AboutMeComponent::class)->name('about-me');
