@@ -1,5 +1,6 @@
 <?php
 
+use App\Livewire\AboutMeComponent;
 use App\Livewire\MainPageComponent;
 use App\Livewire\PortfolioComponent;
 use Illuminate\Support\Facades\Route;
