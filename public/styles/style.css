@@ -9,7 +9,7 @@ body {
     align-items: center;
     width: 70%;
     justify-content: center;
-    margin: 2% 15% 0 15%;
+    margin: -3% 15% 0 15%;
     border: white solid 1px;
     padding: 1%;
 }
@@ -51,7 +51,7 @@ body {
     margin: 12.5% 14.5% 0 0
 }
 .separating-stripe {
-    margin: 1% 5% 1% 5%;
+    margin: 0 5% 0 5%;
     width: 90%;
     height: 12px;
     background-color: white;
@@ -121,10 +121,26 @@ body {
     margin: 10% 0 0 36%
 }
 .mix-price {
-    font-size: 3.5rem;
     margin: 1% 0 0 7.8%;
 }
 .master-price {
-    font-size: 3.5rem;
     margin: 1% 7.7% 0 0;
+}
+.rem35 {
+    font-size: 3.5rem;
+}
+.mb-3p {
+    margin-bottom: 3%;
+}
+.introduction {
+    margin: 0 10% 3% 10%;
+}
+.sfxtest123 {
+    width: 30%;
+    margin: 0 0 0.5% 35%;
+    height: 50px;
+    background-color: white;
+}
+.artist-name {
+    margin-right: -23%;
 }
