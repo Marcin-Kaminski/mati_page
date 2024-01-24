@@ -43,7 +43,7 @@
                 <img src="images/instagram-logo.png" class="ig-logo" alt="sfx">
                 <img src="images/youtube-logo.png" class="yt-logo" alt="sfx">
                 <div class="centered-text creator">
-                    © 2023 mattmastering.pl | Designed by &nbsp <a href="https://www.instagram.com/schizofreniaparanoidalna200" target="_blank" class="white-color" id="creator-ig-link">@schizofreniaparanoidalna200</a>
+                    © 2024 mattmastering.pl | Designed by &nbsp <a href="https://www.instagram.com/schizofreniaparanoidalna200" target="_blank" class="white-color" id="creator-ig-link">@schizofreniaparanoidalna200</a>
                 </div>
             </div>
         </div>

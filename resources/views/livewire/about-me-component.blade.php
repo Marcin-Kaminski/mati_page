@@ -15,7 +15,7 @@
             <div class="separating-stripe mb-1p"></div>
             <div class="mid-box">
                 <div class="centered-text rem28 mr15 mb-5p" >O MNIE</div>
-                <div class="centered-text rem28 mr15 " >yo, tu Mati, w tym roku skonczyłem 21 lat, miksuje kawałki od 2019 roku, kazdego dnia coraz bardziej konsekwentnie, aby spełnic swoje cele i realizowac sie w swojej pasji jaka tez jest nawijka. Od czasu do czasu poza muza tworze grafiki, ostatnio sporo sportu wlatuje, duzo rzeczy wrzucam też na instagrama mlodszymati_ wiec jesli chciałbys zobaczyc co robie poza tworczoscia w necie to mozesz wpasc zostawic follow. Pozdro.</div>
+                <div class="centered-text rem28 mr15 " >yo, tu Mati, w tym roku skonczyłem {{ $age }} lat, miksuje kawałki od 2019 roku, kazdego dnia coraz bardziej konsekwentnie, aby spełnic swoje cele i realizowac sie w swojej pasji jaka tez jest nawijka. Od czasu do czasu poza muza tworze grafiki, ostatnio sporo sportu wlatuje, duzo rzeczy wrzucam też na instagrama mlodszymati_ wiec jesli chciałbys zobaczyc co robie poza tworczoscia w necie to mozesz wpasc zostawic follow. Pozdro.</div>
             </div>
             <div class="separating-stripe mt-11p mb-1p"></div>
             <div class="contact-box">
@@ -23,7 +23,7 @@
                 <img src="images/instagram-logo.png" class="ig-logo" alt="sfx">
                 <img src="images/youtube-logo.png" class="yt-logo" alt="sfx">
                 <div class="centered-text creator">
-                    © 2023 mattmastering.pl | Designed by &nbsp <a href="https://www.instagram.com/schizofreniaparanoidalna200" target="_blank" class="white-color" id="creator-ig-link">@schizofreniaparanoidalna200</a>
+                    © 2024 mattmastering.pl | Designed by &nbsp <a href="https://www.instagram.com/schizofreniaparanoidalna200" target="_blank" class="white-color" id="creator-ig-link">@schizofreniaparanoidalna200</a>
                 </div>
             </div>
         </div>
