@@ -10,4 +10,13 @@ class AboutMeComponent extends Component
     {
         return view('livewire.about-me-component');
     }
+    public function goToPortfolio()
+    {
+        return redirect()->route('portfolio');
+    }
+
+    public function goBack()
+    {
+        return redirect()->route('main-page');
+    }
 }
