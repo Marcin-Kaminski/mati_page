@@ -39,7 +39,7 @@
             <div class="check-playlist" id="check-playlist">SPRAWDZ PLAYLISTE NA YT!</div>
             <div class="separating-stripe mb-1p"></div>
             <div class="contact-box">
-                <div class="centered-text rem28 mb-5p">Skontaktuj sie ze mna</div>
+                <div class="centered-text rem28 contact-phone mb-5p">Skontaktuj sie ze mna</div>
                 <img src="images/instagram-logo.png" class="ig-logo" alt="sfx">
                 <img src="images/youtube-logo.png" class="yt-logo" alt="sfx">
                 <div class="centered-text creator">

@@ -15,7 +15,7 @@
             <div class="separating-stripe mb-3p"></div>
         </div>
         <div class="mid-box">
-            <div class="centered-text rem28 mr15" >CO OFERUJE?</div>
+            <div class="centered-text rem35 mr15" >CO OFERUJE?</div>
             <div class="mix-and-master-box">
                 <div class="mixer-white-box">
                     <div class="white-box float-left">
@@ -24,6 +24,7 @@
                         <div class="centered-text rem-15 black-color mix-description-text">Miks to proces łaczenia sciezek audio, dostosowywania głosnosci i dodawania efektów, aby uzyskac spójne brzmienie.</div>
                         <div class="centered-text rem-20 black-color mb-15">Czas realizacji 48h</div>
                     </div>
+                    <div class="phone-mix-price float-left">CENA: 50zł</div>
                 </div>
                 <div class="master-white-box">
                     <div class="white-box float-right">
@@ -32,10 +33,11 @@
                         <div class="centered-text rem-15 black-color mix-description-text">Mastering to ostateczna obróbka dzwieku po miksie, celem jest poprawa ogólnego brzmienia, dynamiki i dostosowanie do róznych nosników.</div>
                         <div class="centered-text rem-20 black-color mb-15">Czas realizacji 48h</div>
                     </div>
+                    <div class="phone-master-price float-right">CENA: 30zł</div>
                 </div>
                 <div class="clearfix"></div>
-                <div class="mix-price float-left rem35">CENA: 50zł</div>
-                <div class="master-price float-right rem35">CENA: 30zł</div>
+                <div class="mix-price float-left">CENA: 50zł</div>
+                <div class="master-price float-right">CENA: 30zł</div>
                 <div class="clearfix"></div>
             </div>
             <div class="centered-text rem35">MIX&MASTER</div>
@@ -44,19 +46,19 @@
             <div class="centered-text rem35 mb-3p">O MNIE</div>
             <div class="centered-text rem28 introduction">Siema, jestem Mati, mixuje juz 4 rok, zajawkowo robie muze. Z moja wiedza, i Twoja włozona praca w numer dojdziemy do perfekcji i stworzymy cos mocnego!</div>
             <div class="separating-stripe mb-3p"></div>
-            <div class="centered-text rem28 mb-3p">MIKS PRZED I PO</div>
+            <div class="centered-text rem35 mb-3p">MIKS PRZED I PO</div>
             <div class="before-miks-box">
-                <div class="centered-text rem28 mb-1p">PRZED</div>
+                <div class="centered-text rem28 phone-adjustment mb-1p">PRZED</div>
                 @if($mixPrevNumber === 0)
-                    <audio controls src="music/ai-bambi.mp3" ></audio>
+                    <audio class="audio" controls src="music/ai-bambi.mp3" ></audio>
                     <div class="centered-text  mb-3p artist-name mb-3p">AI BAMBI</div>
                 @endif
                 @if($mixPrevNumber === 1)
-                    <audio controls src="music/cheatz.mp3" ></audio>
+                    <audio class="audio" controls src="music/cheatz.mp3" ></audio>
                     <div class="centered-text  mb-3p artist-name mb-3p">CHEATZ</div>
                 @endif
                 @if($mixPrevNumber === 2)
-                    <audio controls src="music/matt.mp3" ></audio>
+                    <audio class="audio" controls src="music/matt.mp3" ></audio>
                     <div class="centered-text  mb-3p artist-name mb-3p">MATT</div>
                 @endif
             </div>
@@ -74,22 +76,22 @@
                 <div class="centered-text rem28 mb-1p mr-28p">PO</div>
                 @endif
                 @if($mixPrevNumber === 0)
-                <audio controls src="music/ai-bambi.mp3" ></audio>
+                <audio controls class="audio" src="music/ai-bambi.mp3" ></audio>
                 <div class="centered-text  mb-3p artist-name mb-3p">AI BAMBI</div>
                 @endif
                 @if($mixPrevNumber === 1)
-                    <audio controls src="music/cheatz.mp3" ></audio>
+                    <audio controls class="audio" src="music/cheatz.mp3" ></audio>
                     <div class="centered-text  mb-3p artist-name mb-3p">CHEATZ</div>
                 @endif
                     @if($mixPrevNumber === 2)
-                        <audio controls src="music/matt.mp3" ></audio>
+                        <audio controls class="audio" src="music/matt.mp3" ></audio>
                         <div class="centered-text  mb-3p artist-name mb-3p">MATT</div>
                     @endif
             </div>
             <div class="centered-text check-portfolio" wire:click="goToPortfolio">OBCZAJ PORTFOLIO</div>
             <div class="separating-stripe mb-1p"></div>
             <div class="contact-box">
-                <div class="centered-text rem28 mb-5p">Skontaktuj sie ze mna</div>
+                <div class="centered-text rem28 contact-phone mb-5p">Skontaktuj sie ze mna</div>
                 <img src="images/instagram-logo.png" class="ig-logo" alt="MissingImage">
                 <img src="images/youtube-logo.png" class="yt-logo" alt="MissingImage">
                 <div class="centered-text creator">
