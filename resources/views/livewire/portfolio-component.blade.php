@@ -5,12 +5,12 @@
     <div class="box">
         <div class="top-box">
             <div class="violin-key-box">
-                <img src="images/portfolio-violin-key.png" wire:click="goBack" alt="sfx" class="portfolio-violin-key">
+                <img src="images/portfolio-violin-key.png" wire:click="goBack" alt="Missing Image" class="portfolio-violin-key">
                 <div class="main-page-title-portfolio float-left rem28" wire:click="goBack">strona główna</div>
             </div>
             <div class="site-title mb-1p">mattmastering.pl</div>
             <div class="about-me-box">
-                <img src="images/about-me-book.png" wire:click="goToAboutMe" alt="sfx" class="about-me-book">
+                <img src="images/about-me-book.png" wire:click="goToAboutMe" alt="Missing Image" class="about-me-book">
                 <div class="about-me-title float-right rem28" wire:click="goToAboutMe" >o mnie</div>
 
             </div>
@@ -48,6 +48,7 @@
                 <img src="images/youtube-logo.png" class="yt-logo" alt="MissingImage">
                 <div class="centered-text foot-name">© 2024 mattmastering.pl</div>
                 <div class="designer" >Designed by @schizofreniaparanoidalna200</div>
+                <div class="check-playlist" style="display: none">SPRAWDZ PLAYLISTE NA YT!</div>
             </div>
         </div>
     </div>

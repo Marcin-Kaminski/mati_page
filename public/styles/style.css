@@ -8,7 +8,7 @@ body {
         width: 5% !important;
     }
     .portfolio-violin-key {
-        visibility: visible!important;
+        display: block!important;
         width: 30% !important;
         margin: 10% 0 0 -43% !important;
     }
@@ -18,7 +18,7 @@ body {
         width: 100%!important;
     }
     .about-me-book {
-        visibility: visible!important;
+        display: block!important;
         width: 62% !important;
         margin: 28% -68% 0 0!important;
     }
@@ -180,7 +180,7 @@ body {
     float: left;
     width: 9%;
     margin: 10% 0 0 14%;
-    visibility: hidden;
+    display: none;
 }
 .portfolio-violin-key:hover {
     width: 9.5%;
@@ -195,7 +195,7 @@ body {
     float: right;
     width: 24%;
     margin: 13% 14.5% 0 0;
-    visibility: hidden;
+    display: none;
 }
 .about-me-book:hover {
     width: 24.5%;
@@ -390,6 +390,7 @@ body {
 .check-playlist {
     width: 455px;
     padding: 15px;
+
     border: white solid 5px;
     font-size: 3rem;
     cursor: pointer;
@@ -403,20 +404,20 @@ audio {
     margin-right: 28%;
 }
 .portfolio-title {
-    margin: 19% 0 0 -8%;
+    margin: 18% 0 0 15%;
     cursor: pointer;
 }
 .portfolio-title:hover {
     font-size: 2.9rem;
-    margin: 18% 0 0 -8%;
+    margin: 17% 0 0 15%;
 }
 .about-me-title {
-    margin: 19% -24% 0 0;
+    margin: 19% 15% 0 0;
     cursor: pointer;
 }
 .about-me-title:hover {
     font-size: 2.9rem;
-    margin: 18% -24% 0 0;
+    margin: 18% 15% 0 0;
 }
 .main-page-title-portfolio {
     margin: 18% 0 0 15%;
@@ -427,12 +428,12 @@ audio {
     margin: 17% 0 0 15%;
 }
 .main-page-title-about-me {
-    margin: 18% -24% 0 0;
+    margin: 18% 15% 0 0;
     cursor: pointer;
 }
 .main-page-title-about-me:hover {
     font-size: 2.9rem;
-    margin: 17% -24% 0 0;
+    margin: 17% 15% 0 0;
 }
 .top-box {
     width: 100%;
