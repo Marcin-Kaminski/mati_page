@@ -3,6 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta property="og:image" content="https://mati-page.studiokam.pl/images/oggraph.png"/>
 
         <title>{{ $title ?? 'mattmastering.pl' }}</title>
     </head>
