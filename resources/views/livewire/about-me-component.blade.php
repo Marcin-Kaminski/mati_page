@@ -6,10 +6,13 @@
         <div class="top-box">
             <div class="violin-key-box">
                 <img src="images/portfolio-violin-key.png" wire:click="goToPortfolio" alt="sfx" class="portfolio-violin-key">
+                <div class="portfolio-title float-left rem28" wire:click="goToPortfolio">portfolio</div>
             </div>
             <div class="site-title mb-1p">mattmastering.pl</div>
             <div class="about-me-box">
                 <img src="images/about-me-book.png" wire:click="goBack" alt="sfx" class="about-me-book">
+                <div class="main-page-title-about-me float-right rem28" wire:click="goToPortfolio">strona główna</div>
+
             </div>
             <div class="clearfix"></div>
             <div class="separating-stripe mb-1p"></div>

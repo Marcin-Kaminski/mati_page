@@ -4,7 +4,11 @@ body {
     color: white;
 }
 @media screen and (max-width: 720px) {
+    .body {
+        width: 5% !important;
+    }
     .portfolio-violin-key {
+        visibility: visible!important;
         width: 21% !important;
         margin: 10% 0 0 -43% !important;
     }
@@ -19,6 +23,7 @@ body {
         width: 100%!important;
     }
     .about-me-book {
+        visibility: visible!important;
         width: 56% !important;
         margin: 17% -64% 0 0!important;
     }
@@ -43,11 +48,11 @@ body {
         font-size: 0!important;
     }
     .phone-mix-price {
-        font-size: 3.5rem!important;
+        font-size: 2.7rem!important;
         margin: 0 0 5% 15%!important;
     }
     .phone-master-price {
-        font-size: 3.5rem!important;
+        font-size: 2.7rem!important;
         margin: 4% 15% 5% 0!important;
     }
     .introduction {
@@ -61,7 +66,7 @@ body {
         margin: 0 0 0.5% 4% !important;
     }
     .artist-name {
-        margin-right: -93%!important;
+        margin-left: 66%!important;
     }
     .next-artist {
         width: 15%!important;
@@ -83,21 +88,22 @@ body {
     }
     .contact-box {
         width: 100% !important;
+        margin: 0!important;
     }
     .contact-phone {
-        font-size: 2.2rem !important;
-        margin: 2% 0 0 -57% !important;
+        font-size: 1.9rem !important;
+        margin: 2% 0 0 0 !important;
     }
     .ig-logo {
         width: 31% !important;
-        margin: 2% 0 0 -19% !important;
+        margin: 2% 0 0 8% !important;
     }
     .yt-logo {
         width: 42% !important;
         margin: 0 0 0 8% !important;
     }
-    .creator {
-        margin: 3% 0 -2% -41% !important;
+    .foot-name {
+        margin: 3% 0 -2% 0% !important;
         width: 123% !important;
     }
     .mr-28p {
@@ -118,6 +124,24 @@ body {
         padding: 10px!important;
         font-size: 1.9rem!important;
         margin: 2% 0 5% 0!important;
+    }
+    .main-page-title-about-me {
+        visibility: hidden!important;
+    }
+    .main-page-title-portfolio {
+        visibility: hidden!important;
+    }
+    .about-me-title {
+        visibility: hidden!important;
+    }
+    .portfolio-title {
+        visibility: hidden!important;
+    }
+    .rem35 {
+        font-size: 2.5rem!important;
+    }
+    .site-title {
+        font-size: 2rem!important;
     }
 }
 .box {
@@ -146,6 +170,7 @@ body {
     float: left;
     width: 9%;
     margin: 10% 0 0 14%;
+    visibility: hidden;
 }
 .portfolio-violin-key:hover {
     width: 9.5%;
@@ -160,11 +185,12 @@ body {
     float: right;
     width: 24%;
     margin: 13% 14.5% 0 0;
+    visibility: hidden;
 }
 .about-me-book:hover {
     width: 24.5%;
     cursor: pointer;
-    margin: 12.5% 14.5% 0 0
+    margin: 12.5% 14.5% 0 0;
 }
 .separating-stripe {
     margin: 0 5% 0 5%;
@@ -317,7 +343,7 @@ body {
 .ml-28p {
     margin-left: 28% ;
 }
-.creator {
+.foot-name {
     margin: 3% 0 -2% 0;
 }
 .white-color {
@@ -357,4 +383,39 @@ audio {
 }
 .mr-28p {
     margin-right: 28%;
+}
+.portfolio-title {
+    margin: 19% 0 0 -8%;
+    cursor: pointer;
+}
+.portfolio-title:hover {
+    font-size: 2.9rem;
+    margin: 18% 0 0 -8%;
+}
+.about-me-title {
+    margin: 19% -24% 0 0;
+    cursor: pointer;
+}
+.about-me-title:hover {
+    font-size: 2.9rem;
+    margin: 18% -24% 0 0;
+}
+.main-page-title-portfolio {
+    margin: 18% 0 0 15%;
+    cursor: pointer;
+}
+.main-page-title-portfolio:hover {
+    font-size: 2.9rem;
+    margin: 17% 0 0 15%;
+}
+.main-page-title-about-me {
+    margin: 18% -24% 0 0;
+    cursor: pointer;
+}
+.main-page-title-about-me:hover {
+    font-size: 2.9rem;
+    margin: 17% -24% 0 0;
+}
+.top-box {
+    width: 100%;
 }
