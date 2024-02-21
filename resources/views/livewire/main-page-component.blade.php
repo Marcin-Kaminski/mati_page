@@ -100,7 +100,8 @@
                 <img src="images/instagram-logo.png" class="ig-logo" alt="MissingImage">
                 <img src="images/youtube-logo.png" class="yt-logo" alt="MissingImage">
                 <div class="centered-text foot-name">© 2024 mattmastering.pl</div>
-                <div class="designer" >Designed by @schizofreniaparanoidalna200</div>
+                <div class="designer">Designed by @schizofreniaparanoidalna200</div>
+                <div class="check-playlist" style="display: none">SPRAWDZ PLAYLISTE NA YT!</div>
             </div>
         </div>
     </div>
