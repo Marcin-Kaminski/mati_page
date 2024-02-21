@@ -79,7 +79,7 @@ body {
         margin-left: 5% !important;
     }
     .check-portfolio {
-        width: 84%!important;
+        width: 82%!important;
         margin: 7% 0 6% 0!important;
         font-size: 1rem!important;
         padding: 10px;
@@ -121,7 +121,7 @@ body {
         margin: 2% 0 2% -21% !important;
     }
     .check-playlist {
-        width: 82% !important;
+        width: 86% !important;
         padding: 10px!important;
         font-size: 1.3rem!important;
         margin: 2% 0 5% 0!important;
@@ -388,13 +388,13 @@ body {
     margin: 0 5% 0 5%;
 }
 .check-playlist {
-    width: 455px;
+    width: 87.5%;
     padding: 15px;
-
     border: white solid 5px;
     font-size: 3rem;
     cursor: pointer;
-    margin: 2% 0 2% 31%;
+    margin: 2% 0 2% 5%;
+    text-align: center;
 }
 audio {
     width: 30%;
