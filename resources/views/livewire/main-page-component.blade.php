@@ -15,8 +15,8 @@
                 <div class="about-me-title float-right rem28" wire:click="goToAboutMe" >o mnie</div>
             </div>
             <div class="clearfix"></div>
-            <div class="separating-stripe mb-3p"></div>
         </div>
+        <div class="separating-stripe mb-3p"></div>
         <div class="mid-box">
             <div class="centered-text rem35 mr15" >CO OFERUJE?</div>
             <div class="mix-and-master-box">
@@ -65,6 +65,7 @@
                     <div class="centered-text  mb-3p artist-name mb-3p">MATT</div>
                 @endif
             </div>
+            <div class="clearfix"></div>
             @if($mixPrevNumber >= 0 && $mixPrevNumber < 2)
             <img src="images/next-artist.png" class="next-artist" wire:click="goToNextMix" alt="MissingImage">
             @endif
@@ -99,8 +100,7 @@
                 <img src="images/instagram-logo.png" class="ig-logo" alt="MissingImage">
                 <img src="images/youtube-logo.png" class="yt-logo" alt="MissingImage">
                 <div class="centered-text foot-name">© 2024 mattmastering.pl</div>
-                <div class="centered-text">Designed by &nbsp <a href="https://www.instagram.com/schizofreniaparanoidalna200" target="_blank" class="white-color" id="creator-ig-link">@schizofreniaparanoidalna200</a>
-                </div>
+                <div class="centered-text designer">Designed by @schizofreniaparanoidalna200</div>
             </div>
         </div>
     </div>

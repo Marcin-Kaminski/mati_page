@@ -11,7 +11,7 @@
             <div class="site-title mb-1p">mattmastering.pl</div>
             <div class="about-me-box">
                 <img src="images/about-me-book.png" wire:click="goBack" alt="sfx" class="about-me-book">
-                <div class="main-page-title-about-me float-right rem28" wire:click="goToPortfolio">strona główna</div>
+                <div class="main-page-title-about-me float-right rem28" wire:click="goBack">strona główna</div>
 
             </div>
             <div class="clearfix"></div>
@@ -22,12 +22,12 @@
             </div>
             <div class="separating-stripe mt-11p mb-1p"></div>
             <div class="contact-box">
+                <div class="clearfix"></div>
                 <div class="centered-text rem28 contact-phone mb-5p">Skontaktuj sie ze mna</div>
-                <img src="images/instagram-logo.png" class="ig-logo" alt="sfx">
-                <img src="images/youtube-logo.png" class="yt-logo" alt="sfx">
-                <div class="centered-text creator">
-                    © 2024 mattmastering.pl | Designed by &nbsp <a href="https://www.instagram.com/schizofreniaparanoidalna200" target="_blank" class="white-color" id="creator-ig-link">@schizofreniaparanoidalna200</a>
-                </div>
+                <img src="images/instagram-logo.png" class="ig-logo" alt="MissingImage">
+                <img src="images/youtube-logo.png" class="yt-logo" alt="MissingImage">
+                <div class="centered-text foot-name">© 2024 mattmastering.pl</div>
+                <div class="centered-text designer">Designed by @schizofreniaparanoidalna200</div>
             </div>
         </div>
     </div>
