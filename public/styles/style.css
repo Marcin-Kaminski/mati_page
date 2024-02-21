@@ -43,12 +43,15 @@ body {
         font-size: 0!important;
     }
     .phone-mix-price {
+        text-align: center!important;
         font-size: 2.2rem!important;
-        margin: 0 0 5% 10%!important;
+        margin: 0 0 5% 0!important;
     }
     .phone-master-price {
+        float: none!important;
+        text-align: center!important;
         font-size: 2.2rem!important;
-        margin: 4% 10% 5% 0!important;
+        margin: 4% 0 5% 0!important;
     }
     .introduction {
         margin: 0 0 7% 0!important;
@@ -76,7 +79,7 @@ body {
         margin-left: 5% !important;
     }
     .check-portfolio {
-        width: 77%!important;
+        width: 84%!important;
         margin: 7% 0 6% 0!important;
         font-size: 1rem!important;
         padding: 10px;
@@ -315,7 +318,12 @@ body {
     margin-bottom: 1%;
 }
 .designer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
     width: 103%;
+    cursor: pointer;
 }
 .mb-5p {
     margin-bottom: 5%;

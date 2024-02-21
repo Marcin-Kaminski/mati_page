@@ -39,7 +39,7 @@
                 </div>
             </div>
 
-            <div class="check-playlist" id="check-playlist">SPRAWDZ PLAYLISTE NA YT!</div>
+            <div class="check-playlist">SPRAWDZ PLAYLISTE NA YT!</div>
             <div class="separating-stripe mb-1p"></div>
             <div class="contact-box">
                 <div class="clearfix"></div>
@@ -47,7 +47,7 @@
                 <img src="images/instagram-logo.png" class="ig-logo" alt="MissingImage">
                 <img src="images/youtube-logo.png" class="yt-logo" alt="MissingImage">
                 <div class="centered-text foot-name">© 2024 mattmastering.pl</div>
-                <div class="centered-text designer">Designed by @schizofreniaparanoidalna200</div>
+                <div class="designer" >Designed by @schizofreniaparanoidalna200</div>
             </div>
         </div>
     </div>

@@ -2,6 +2,7 @@ document.addEventListener('DOMContentLoaded', function () {
     let instagramLogo = document.querySelector('.ig-logo');
     let youtubeLogo = document.querySelector('.yt-logo');
     let checkPlaylist = document.querySelector('.check-playlist');
+    let designer = document.querySelector('.designer');
 
     instagramLogo.addEventListener('click', function () {
         window.open('https://www.instagram.com/mlodszymati_/', '_blank');
@@ -12,4 +13,8 @@ document.addEventListener('DOMContentLoaded', function () {
     checkPlaylist.addEventListener('click', function () {
         window.open('https://youtube.com/playlist?list=PLHRcQToW6QSfZghuNmKiXayKjaKUrQwlj&si=HJRlmhpyFFj4THmE', '_blank');
     });
+    designer.addEventListener('click', function () {
+        window.open('https://www.instagram.com/schizofreniaparanoidalna200/', '_blank');
+    });
+
 });
